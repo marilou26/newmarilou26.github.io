@@ -1,0 +1,89 @@
+body{
+    background-image: url(PHOTOS/background6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: purple;
+    font-size: 90px;
+    font-family: century bold;
+    text-align: center;
+}
+.header {
+    overflow: hidden;
+    background-color: skyblue;
+    /*padding: 20px 10px;*/
+  }
+
+  .header img{
+    height: 50px;
+    width: 50px;
+  }
+  
+
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: century bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: rgb(0, 153, 255);
+    color: White;
+  }
+
+  .header a.active {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-Right {
+    float: right;
+  }
+p{
+    color: darkblue;
+    font-size: 70px;
+    font-family: century bold;
+    text-align: center;
+    word-spacing: normal;
+}
+.footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: skyblue;
+    color: black;
+    text-align: center;
+  }
+  #context img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #context ul{
+    font-size: 50px;
+    font-style: century bold;
+    text-align: center;
+    color: blue;
+  }
